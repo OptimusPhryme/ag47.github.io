@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ag47 — Silver (Ag)</title>
+  <meta name="description" content="A polished, professional overview of Silver (Ag): monetary history, investment forms, and industrial applications." />
+  <style>
+    :root{
+      --bg:#0b0e12; --card:#121722; --ink:#e7e9ee; --muted:#a9afc3; --accent:#cfd5e3; --silver:#c9ccd6;
+    }
+    *{box-sizing:border-box}
+    body{margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; background:linear-gradient(180deg,#0b0e12,#0e1320); color:var(--ink)}
+    a{color:inherit; text-decoration:none}
+    header{position:sticky; top:0; backdrop-filter:saturate(120%) blur(6px); background:rgba(11,14,18,.6); border-bottom:1px solid #1f2435}
+    .wrap{max-width:1200px; margin:auto; padding:24px}
+    nav{display:flex; align-items:center; gap:20px}
+    .logo{font-weight:800; letter-spacing:.3px}
+    .spacer{flex:1}
+    .btn{padding:10px 14px; border-radius:12px; background:#1b2238; border:1px solid #27305a}
+
+    .hero{display:grid; grid-template-columns:1.1fr .9fr; gap:32px; padding:64px 24px}
+    .hero h1{font-size:48px; margin:.2em 0}
+    .hero p{color:var(--muted); font-size:18px}
+    .badge{display:inline-flex; gap:8px; align-items:center; padding:8px 12px; border-radius:999px; background:#151b2e; border:1px solid #24306a}
+
+    .grid{display:grid; grid-template-columns:repeat(4,1fr); gap:20px}
+    .card{background:linear-gradient(180deg,#121722,#0f1424); border:1px solid #1e2545; border-radius:18px; padding:18px}
+    .card h3{margin-top:10px}
+    .card p{color:var(--muted)}
+
+    .section{padding:56px 24px}
+    .section h2{font-size:36px; margin-bottom:12px}
+
+    .two{display:grid; grid-template-columns:1fr 1fr; gap:28px}
+
+    footer{border-top:1px solid #1f2435; color:#b7bdd6}
+
+    /* SVG frames */
+    .frame{background:#0f1424; border:1px dashed #2a3264; border-radius:14px; padding:12px}
+    svg{width:100%; height:auto}
+
+    @media (max-width:900px){
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:repeat(2,1fr)}
+      .two{grid-template-columns:1fr}
+    }
+    @media (max-width:520px){
+      .grid{grid-template-columns:1fr}
+      .hero h1{font-size:36px}
+    }
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <nav>
+      <div class="logo">Ag47</div>
+      <a href="#monetary">Monetary</a>
+      <a href="#industrial">Industrial</a>
+      <a href="#forms">Forms</a>
+      <div class="spacer"></div>
+      <a class="btn" href="https://github.com/" target="_blank" rel="noreferrer">GitHub Pages</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <div>
+      <span class="badge">Element 47 · Ag · Silver</span>
+      <h1>Silver: Monetary Heritage & Industrial Power</h1>
+      <p>Silver (Ag) combines timeless monetary value with indispensable industrial utility—from investment bullion to electronics, photovoltaics, and medical applications.</p>
+    </div>
+    <div class="frame">
+      <!-- Silver bars hero SVG -->
+      <svg viewBox="0 0 600 360" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#eef1f7"/>
+            <stop offset="1" stop-color="#9aa3bd"/>
+          </linearGradient>
+        </defs>
+        <rect x="40" y="120" width="220" height="120" rx="18" fill="url(#g)"/>
+        <rect x="180" y="90" width="260" height="140" rx="18" fill="url(#g)" opacity=".95"/>
+        <text x="210" y="165" fill="#2a2f3a" font-size="22" font-weight="700">999 FINE SILVER</text>
+      </svg>
+    </div>
+  </section>
+
+  <section id="forms" class="section wrap">
+    <h2>Investment Forms</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="frame">
+          <!-- Silver bars -->
+          <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg"><rect x="20" y="60" width="120" height="80" rx="12" fill="#d7dbe7"/><rect x="110" y="40" width="160" height="100" rx="12" fill="#bfc6db"/></svg>
+        </div>
+        <h3>Silver Bars</h3>
+        <p>High-purity bullion favored for low premiums and efficient storage.</p>
+      </div>
+      <div class="card">
+        <div class="frame">
+          <!-- Silver rounds -->
+          <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg"><circle cx="120" cy="90" r="55" fill="#dfe3f0"/><circle cx="180" cy="90" r="55" fill="#bfc6db"/></svg>
+        </div>
+        <h3>Silver Rounds</h3>
+        <p>Privately minted rounds offering artistic designs and liquidity.</p>
+      </div>
+      <div class="card">
+        <div class="frame">
+          <!-- Junk silver -->
+          <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg"><circle cx="90" cy="90" r="40" fill="#c9cfdf"/><circle cx="150" cy="90" r="40" fill="#b9c0d6"/><circle cx="210" cy="90" r="40" fill="#aeb6cf"/></svg>
+        </div>
+        <h3>Junk Silver</h3>
+        <p>Circulating coinage with silver content valued for recognizability.</p>
+      </div>
+      <div class="card">
+        <div class="frame">
+          <!-- Industrial silver -->
+          <svg viewBox="0 0 300 180" xmlns="http://www.w3.org/2000/svg"><rect x="40" y="50" width="220" height="20" rx="6" fill="#cfd5e3"/><rect x="40" y="90" width="220" height="20" rx="6" fill="#b7bdd6"/><rect x="40" y="130" width="220" height="20" rx="6" fill="#a9afc3"/></svg>
+        </div>
+        <h3>Industrial Silver</h3>
+        <p>Forms used in manufacturing, alloys, and conductive pastes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="monetary" class="section wrap">
+    <div class="two">
+      <div>
+        <h2>Monetary Role</h2>
+        <p>Silver has served as money for millennia—coinage, trade settlement, and a store of value. Today it remains an accessible hedge and portfolio diversifier.</p>
+      </div>
+      <div class="card">
+        <h3>Why Investors Hold Silver</h3>
+        <ul>
+          <li>Historical monetary acceptance</li>
+          <li>Lower entry cost than gold</li>
+          <li>Physical, no counterparty risk</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="industrial" class="section wrap">
+    <div class="two">
+      <div class="card">
+        <h3>Industrial Demand</h3>
+        <ul>
+          <li>Electronics & electrical contacts</li>
+          <li>Solar photovoltaics</li>
+          <li>Medical & antimicrobial uses</li>
+          <li>Automotive & aerospace</li>
+        </ul>
+      </div>
+      <div>
+        <h2>Industrial Power</h2>
+        <p>Silver’s unmatched electrical conductivity, reflectivity, and antimicrobial properties make it essential across modern industries.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Ag47 · Silver (Ag)</div>
+</footer>
+</body>
+</html>
